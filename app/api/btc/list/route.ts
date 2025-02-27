@@ -49,7 +49,7 @@ export async function GET() {
       }).sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()), // Sort by date descending
     }
 
-    console.log("Returning mock list data due to error:", error.message)
+    // console.log("Returning mock list data due to error:", error.message)
     return NextResponse.json(mockData, {
       status: 200,
       headers: {
