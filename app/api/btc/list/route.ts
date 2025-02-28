@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 
 // Replace this URL with your actual backend API endpoint
-const BACKEND_API_URL = "http://localhost:3000/btc/list"
+const BACKEND_API_URL = "https://fc16-222-252-16-194.ngrok-free.app/btc/list"
 
 export async function GET() {
   try {
