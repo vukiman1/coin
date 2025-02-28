@@ -62,7 +62,7 @@ export default function BtcPriceChart() {
   // -------------------------
   useEffect(() => {
     // Kết nối đến server Socket.IO
-    const socket = io("http://localhost:3000") // Hoặc ws://localhost:3000
+    const socket = io("https://fc16-222-252-16-194.ngrok-free.app") // Hoặc ws://localhost:3000
 
     // Khi kết nối thành công
     socket.on("connect", () => {
